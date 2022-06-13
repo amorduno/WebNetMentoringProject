@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebNetMentoringProject.Models
 {
-    public partial class Category
+    public partial class Category : ICategory
     {
         public int Id { get; set; }
 

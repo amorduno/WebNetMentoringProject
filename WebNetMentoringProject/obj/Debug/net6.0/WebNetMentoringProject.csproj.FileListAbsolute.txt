@@ -261,3 +261,10 @@ C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringPr
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\obj\Debug\net6.0\WebNetMentoringProject.pdb
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\obj\Debug\net6.0\WebNetMentoringProject.genruntimeconfig.cache
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\obj\Debug\net6.0\ref\WebNetMentoringProject.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\FluentAssertions.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\obj\Debug\net6.0\WebNetMentoringProject.MvcApplicationPartsAssemblyInfo.cs

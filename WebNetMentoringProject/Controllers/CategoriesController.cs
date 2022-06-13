@@ -20,9 +20,10 @@ namespace WebNetMentoringProject.Controllers
 
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
-                          View(await _context.Categories.ToListAsync()) :
-                          Problem("Entity set 'DBShopContext.Categories'  is null.");
+              return View(await _context.Categories.ToListAsync());
+            //return _context.Categories != null ?
+            //              View(await _context.Categories.ToListAsync()) :
+            //              Problem("Entity set 'DBShopContext.Categories'  is null.");
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -47,12 +48,14 @@ namespace WebNetMentoringProject.Controllers
             return View();
         }
 
+        [Route("Categories/Create")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,Picture")] Category category)
         {
+            
             if (ModelState.IsValid)
-            {
+            {               
                 _context.Add(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -75,6 +78,7 @@ namespace WebNetMentoringProject.Controllers
             return View(category);
         }
 
+        [Route("Categories/Edit")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Picture")] Category category)
@@ -124,6 +128,7 @@ namespace WebNetMentoringProject.Controllers
             return View(category);
         }
 
+        [Route("Categories/Delete")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

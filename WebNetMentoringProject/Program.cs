@@ -11,7 +11,11 @@ builder.Services.AddDbContext<DBShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ShopConnectionDB"))
 );
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+app.UseSwaggerUI();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -27,6 +31,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSwagger(x => x.SerializeAsV2 = true);
 
 app.MapControllerRoute(
     name: "default",
