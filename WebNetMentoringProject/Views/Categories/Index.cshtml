@@ -50,7 +50,7 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Picture)
+                <img width="80px" src="@item.Picture" alt="Category">  
             </td>
             <td>
                 <a class="btn btn-primary btn-sm" asp-action="Edit" asp-controller="Categories" asp-route-id="@item.Id">Edit</a> |

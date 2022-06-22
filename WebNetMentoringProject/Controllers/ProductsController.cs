@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebNetMentoringProject.Models;
@@ -17,7 +13,7 @@ namespace WebNetMentoringProject.Controllers
         {
             _context = context;
         }
-        
+
         public async Task<IActionResult> Index()
         {
             var dBShopContext = _context.Products.Include(p => p.oCategory);
@@ -44,7 +40,7 @@ namespace WebNetMentoringProject.Controllers
 
         public IActionResult Create()
         {
-            ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name");                       
+            ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
@@ -57,7 +53,7 @@ namespace WebNetMentoringProject.Controllers
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }            
+            }
             ViewData["Id"] = new SelectList(_context.Categories, "Id", "Name", product.Id);
 
             return View(product);
@@ -92,7 +88,7 @@ namespace WebNetMentoringProject.Controllers
             if (ModelState.IsValid)
             {
                 try
-                {                    
+                {
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
@@ -145,14 +141,14 @@ namespace WebNetMentoringProject.Controllers
             {
                 _context.Products.Remove(product);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProductExists(int id)
         {
-          return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

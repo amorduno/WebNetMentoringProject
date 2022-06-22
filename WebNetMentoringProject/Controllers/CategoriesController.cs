@@ -5,29 +5,44 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using WebNetMentoringProject.Interfaces;
 using WebNetMentoringProject.Models;
+using WebNetMentoringProject.ViewModel;
 
 namespace WebNetMentoringProject.Controllers
 {
     public class CategoriesController : Controller
     {
         private readonly DBShopContext _context;
+        private readonly IPhotoService _photoService;
+        private readonly ILogger<CategoriesController> _logger;
 
-        public CategoriesController(DBShopContext context)
+        public CategoriesController(DBShopContext context, IPhotoService photoService, ILogger<CategoriesController> logger)
         {
             _context = context;
+            _photoService = photoService;
+            _logger = logger;
+        }
+
+        [HttpGet("category/{id}")]
+        public string CreateCategory(int id)
+        {
+            _logger.LogInformation("Creating category {id}", id);
+
+            return "something";
         }
 
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Categories.ToListAsync());
-            //return _context.Categories != null ?
-            //              View(await _context.Categories.ToListAsync()) :
-            //              Problem("Entity set 'DBShopContext.Categories'  is null.");
+            _logger.LogInformation("Categories Index");
+
+            return View(await _context.Categories.ToListAsync());
         }
 
         public async Task<IActionResult> Details(int? id)
         {
+            _logger.LogInformation("Categories Details");
+
             if (id == null || _context.Categories == null)
             {
                 return NotFound();
@@ -45,22 +60,36 @@ namespace WebNetMentoringProject.Controllers
 
         public IActionResult Create()
         {
+            _logger.LogInformation("Categories Create");
+
             return View();
         }
 
         [Route("Categories/Create")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Picture")] Category category)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Picture")] CategoryViewModel categoryVM)
         {
-            
             if (ModelState.IsValid)
-            {               
+            {
+                var result = await _photoService.AddPhotoAsync(categoryVM.Picture);
+                var category = new Category
+                {
+                    Name = categoryVM.Name,
+                    Description = categoryVM.Description,
+                    Picture = result.Url.ToString(),
+                };
+
                 _context.Add(category);
                 await _context.SaveChangesAsync();
+                _logger.LogInformation("Creating category...");
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+            else
+            {
+                ModelState.AddModelError("", "Photo upload failed");
+            }
+            return View(categoryVM);
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -81,9 +110,9 @@ namespace WebNetMentoringProject.Controllers
         [Route("Categories/Edit")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Picture")] Category category)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Picture")] CategoryViewModel categoryVM)
         {
-            if (id != category.Id)
+            if (id != categoryVM.Id)
             {
                 return NotFound();
             }
@@ -92,12 +121,20 @@ namespace WebNetMentoringProject.Controllers
             {
                 try
                 {
+                    var result = await _photoService.AddPhotoAsync(categoryVM.Picture);
+                    var category = new Category
+                    {
+                        Name = categoryVM.Name,
+                        Description = categoryVM.Description,
+                        Picture = result.Url.ToString(),
+                    };
+
                     _context.Update(category);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoryExists(category.Id))
+                    if (!CategoryExists(categoryVM.Id))
                     {
                         return NotFound();
                     }
@@ -108,7 +145,7 @@ namespace WebNetMentoringProject.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(category);
+            return View(categoryVM);
         }
 
         public async Task<IActionResult> Delete(int? id)
@@ -142,14 +179,14 @@ namespace WebNetMentoringProject.Controllers
             {
                 _context.Categories.Remove(category);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CategoryExists(int id)
         {
-          return (_context.Categories?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Categories?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

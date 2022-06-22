@@ -4,10 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebNetMentoringProject.Models
 {
-    public partial class Category : ICategory
+    public partial class Category
     {
         public int Id { get; set; }
-
 
         [Required(ErrorMessage = "Categories Name is required")]
         [StringLength(50)]
@@ -15,8 +14,9 @@ namespace WebNetMentoringProject.Models
 
         [Required(ErrorMessage = "Description is required")]
         [StringLength(25)]
-        public string? Description { get; set; }
-        public byte[]? Picture { get; set; }
+        public string Description { get; set; }
+
+        public string Picture { get; set; }
 
         public virtual Product? Product { get; set; }
     }
