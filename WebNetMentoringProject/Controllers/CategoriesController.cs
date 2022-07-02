@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using WebNetMentoringProject.Interfaces;
 using WebNetMentoringProject.Models;
 using WebNetMentoringProject.ViewModel;
-using WebNetMentoringProject.Attributes;
 
 namespace WebNetMentoringProject.Controllers
 {
