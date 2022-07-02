@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebNetMentoringProject.Interfaces;
 using WebNetMentoringProject.Models;
 using WebNetMentoringProject.ViewModel;
+using WebNetMentoringProject.Attributes;
 
 namespace WebNetMentoringProject.Controllers
 {
-    public class CategoriesController : Controller
+    public class CategoriesController : BaseController
     {
         private readonly DBShopContext _context;
         private readonly IPhotoService _photoService;
@@ -22,14 +18,6 @@ namespace WebNetMentoringProject.Controllers
             _context = context;
             _photoService = photoService;
             _logger = logger;
-        }
-
-        [HttpGet("category/{id}")]
-        public string CreateCategory(int id)
-        {
-            _logger.LogInformation("Creating category {id}", id);
-
-            return "something";
         }
 
         public async Task<IActionResult> Index()
@@ -58,7 +46,7 @@ namespace WebNetMentoringProject.Controllers
             return View(category);
         }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
             _logger.LogInformation("Categories Create");
 
@@ -66,9 +54,9 @@ namespace WebNetMentoringProject.Controllers
         }
 
         [Route("Categories/Create")]
-        [HttpPost]
+        [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Picture")] CategoryViewModel categoryVM)
+        public async Task<IActionResult> CreateConfirmed([Bind("Id,Name,Description,Picture")] CategoryViewModel categoryVM)
         {
             if (ModelState.IsValid)
             {
@@ -107,10 +95,11 @@ namespace WebNetMentoringProject.Controllers
             return View(category);
         }
 
+
         [Route("Categories/Edit")]
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Picture")] CategoryViewModel categoryVM)
+        public async Task<IActionResult> EditConfirmed(int id, [Bind("Id,Name,Description,Picture")] CategoryViewModel categoryVM)
         {
             if (id != categoryVM.Id)
             {

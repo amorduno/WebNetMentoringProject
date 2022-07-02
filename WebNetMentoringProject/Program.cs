@@ -5,12 +5,17 @@ using WebNetMentoringProject.Models;
 using WebNetMentoringProject.Services;
 using Serilog;
 using Serilog.Events;
+using WebNetMentoringProject.Diagnostics;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+    .MinimumLevel.Override("System", LogEventLevel.Warning)
     .Enrich.FromLogContext()
     .WriteTo.Console()
     .CreateBootstrapLogger();
+
+ILoggerFactory loggerFactory = new LoggerFactory();
 
 try
 {
@@ -23,6 +28,10 @@ try
                         .ReadFrom.Configuration(context.Configuration)
                         .ReadFrom.Services(services)
                         .Enrich.FromLogContext());
+
+   
+
+    loggerFactory.AddSerilog();
 
     // Add services to the container.
     builder.Services.AddControllersWithViews();
@@ -38,11 +47,13 @@ try
 
     var app = builder.Build();
 
-    //Configure HTTP request pipeline (LOGGING every request)
-    app.UseSerilogRequestLogging(configure =>
-    {
-        configure.MessageTemplate = "HTTP {RequestMethod} {RequestPath} ({UserId}) responded {StatusCode} in {Elapsed:0.0000}ms";
-    }); //log all HTTP request
+    ////Configure HTTP request pipeline (LOGGING every request)
+    //app.UseSerilogRequestLogging(configure =>
+    //{
+    //    configure.MessageTemplate = "HTTP {RequestMethod} {RequestPath} ({UserId}) responded {StatusCode} in {Elapsed:0.0000}ms";
+    //}); //log all HTTP request
+
+    app.UseMiddleware<SerilogMiddleware>();
 
     app.UseSwaggerUI();
 
@@ -60,8 +71,6 @@ try
     app.UseRouting();
 
     app.UseAuthorization();
-
-    app.UseSwagger(x => x.SerializeAsV2 = true);
 
     app.MapControllerRoute(
         name: "default",

@@ -5,7 +5,7 @@ using WebNetMentoringProject.Models;
 
 namespace WebNetMentoringProject.Controllers
 {
-    public class ProductsController : Controller
+    public class ProductsController : BaseController
     {
         private readonly DBShopContext _context;
 
@@ -44,9 +44,10 @@ namespace WebNetMentoringProject.Controllers
             return View();
         }
 
-        [HttpPost]
+        [Route("Products/Create")]
+        [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,CategoryId")] Product product)
+        public async Task<IActionResult> CreateConfirmed([Bind("Id,Name,Description,CategoryId")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -76,9 +77,10 @@ namespace WebNetMentoringProject.Controllers
             return View(product);
         }
 
-        [HttpPost]
+        [Route("Products/Edit")]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,CategoryId")] Product product)
+        public async Task<IActionResult> EditConfirmed(int id, [Bind("Id,Name,Description,CategoryId")] Product product)
         {
             if (id != product.Id)
             {
@@ -128,6 +130,7 @@ namespace WebNetMentoringProject.Controllers
             return View(product);
         }
 
+        [Route("Products/Delete")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

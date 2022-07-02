@@ -282,3 +282,4 @@ C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringPr
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\bin\Debug\net6.0\SerilogTimings.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\obj\Debug\net6.0\scopedcss\Views\Shared\_Home.cshtml.rz.scp.css

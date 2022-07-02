@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CH/9idC0AxzhKnW3ANM9kC3wcgSZWvhvIpo3Yg4zJYQ=",
+  "Hash": "QXULmESh+YQihExZACmBu8ZWNetSqh2rofxcAlowsnI=",
   "Source": "WebNetMentoringProject",
   "BasePath": "_content/WebNetMentoringProject",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebNetMentoringProject.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\css\\home.css",
+      "SourceId": "WebNetMentoringProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\",
+      "BasePath": "_content/WebNetMentoringProject",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\css\\site.css",
       "SourceId": "WebNetMentoringProject",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\js\\principal.js",
+      "SourceId": "WebNetMentoringProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\",
+      "BasePath": "_content/WebNetMentoringProject",
+      "RelativePath": "js/principal.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\principal.js"
     },
     {
       "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\js\\site.js",
@@ -865,6 +899,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\lib\\epam.ico",
+      "SourceId": "WebNetMentoringProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\",
+      "BasePath": "_content/WebNetMentoringProject",
+      "RelativePath": "lib/epam.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\epam.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\lib\\epam.svg",
+      "SourceId": "WebNetMentoringProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\",
+      "BasePath": "_content/WebNetMentoringProject",
+      "RelativePath": "lib/epam.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\epam.svg"
     },
     {
       "Identity": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",

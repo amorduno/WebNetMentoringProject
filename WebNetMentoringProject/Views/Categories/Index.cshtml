@@ -1,4 +1,16 @@
 ﻿@model IEnumerable<WebNetMentoringProject.Models.Category>
+@using WebNetMentoringProject.Models
+@using WebNetMentoringProject.Controllers
+
+@{
+    ViewBag.Breadcrumbs = new List<Breadcrumb>()
+    {
+        new Breadcrumb("Home", nameof(HomeController.Index), "Home", true),
+        new Breadcrumb("Categories", nameof(CategoriesController.Index), "Categories", false)
+    };
+}
+
+
 
 @{
     ViewData["Title"] = "Index";
