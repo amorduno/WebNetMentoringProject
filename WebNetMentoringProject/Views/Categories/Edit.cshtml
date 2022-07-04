@@ -1,11 +1,11 @@
 ﻿@model WebNetMentoringProject.Models.Category
+@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
+@addTagHelper "*, WebNetMentoringProject"
 
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-
 
 <h1>Edit</h1>
 
@@ -28,9 +28,9 @@
             </div>
             <div class="form-group">                
                 <label asp-for="Picture" class="control-label"></label>
-                <img width="50px" src="@Model.Picture" alt="Category"> 
+                <image-taghelper url="@Model.Picture" size="50"></image-taghelper>
                 <input asp-for="Picture" class="form-control" placeholder="Picture" type="file" />
-                <span asp-validation-for="Picture" class="text-danger"></span>
+                <span asp-validation-for="Picture"  class="text-danger"></span>
             </div>
             <br />
             <div class="form-group">

@@ -34,24 +34,6 @@
 
         @Html.Partial("_Breadcrumb")
 
-        @*@if (ViewBag.Breadcrumbs != null)
-        {
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb bg-white justify-content-center">
-                    @foreach (var breadcrumb in ViewBag.Breadcrumbs as List<Breadcrumb>)
-                    {
-                        if (breadcrumb.Active)
-                        {
-                            <li class="breadcrumb-item active"><a asp-action="@breadcrumb.Action" asp-controller="@breadcrumb.Controller">@breadcrumb.Text</a></li>
-                        }
-                        else
-                        {
-                            <li class="breadcrumb-item" aria-current="page">@breadcrumb.Text</li>
-                        }
-                    }
-                </ol>
-            </nav>
-        }*@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
