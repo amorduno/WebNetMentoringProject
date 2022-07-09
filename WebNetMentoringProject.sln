@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringProject", "WebNetMentoringProject\WebNetMentoringProject.csproj", "{65025E14-3F48-446E-BACB-E13EF8FB8876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNetMentoringProject.Test", "WebNetMentoringProject.Test\WebNetMentoringProject.Test.csproj", "{266DB9FD-DE22-4795-9290-A4D6C41A4268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringProject.Test", "WebNetMentoringProject.Test\WebNetMentoringProject.Test.csproj", "{266DB9FD-DE22-4795-9290-A4D6C41A4268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNetMentoringAPI", "WebNetMentoringAPI\WebNetMentoringAPI.csproj", "{926F2A90-BDA4-4A00-B94D-12FB1149DE45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

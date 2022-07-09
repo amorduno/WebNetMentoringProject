@@ -11748,3 +11748,137 @@ FROM [Category] AS [c]
 2022-07-04 09:23:11.355 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.0015ms
 2022-07-04 09:23:11.357 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
 2022-07-04 09:23:11.365 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.8179ms
+2022-07-04 10:07:49.478 -05:00 [INF] User profile is available. Using 'C:\Users\Alejandro_Morales\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-04 10:07:49.913 -05:00 [INF] Now listening on: https://localhost:7240
+2022-07-04 10:07:49.915 -05:00 [INF] Now listening on: http://localhost:5240
+2022-07-04 10:07:49.921 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-04 10:07:49.922 -05:00 [INF] Hosting environment: Development
+2022-07-04 10:07:49.923 -05:00 [INF] Content root path: C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\
+2022-07-04 10:07:51.031 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/ - -
+2022-07-04 10:07:51.309 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject)'
+2022-07-04 10:07:51.340 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebNetMentoringProject.Controllers.HomeController (WebNetMentoringProject).
+2022-07-04 10:07:51.525 -05:00 [INF] Executing ViewResult, running view Index.
+2022-07-04 10:07:51.934 -05:00 [INF] Executed ViewResult - view Index executed in 415.053ms.
+2022-07-04 10:07:51.954 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject) in 609.2539ms
+2022-07-04 10:07:51.957 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject)'
+2022-07-04 10:07:51.965 -05:00 [INF] HTTP GET / responded 200 in 808.2459 ms
+2022-07-04 10:07:52.077 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/ - - - 200 - text/html;+charset=utf-8 1059.5447ms
+2022-07-04 10:07:52.106 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-04 10:07:52.108 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-04 10:07:52.133 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 26.3438ms
+2022-07-04 10:07:52.244 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.2267ms
+2022-07-04 10:08:18.677 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/Home/Home - -
+2022-07-04 10:08:18.695 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.HomeController.Home (WebNetMentoringProject)'
+2022-07-04 10:08:18.700 -05:00 [INF] Route matched with {action = "Home", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Home() on controller WebNetMentoringProject.Controllers.HomeController (WebNetMentoringProject).
+2022-07-04 10:08:18.705 -05:00 [INF] Executing ViewResult, running view Home.
+2022-07-04 10:08:18.767 -05:00 [INF] Executed ViewResult - view Home executed in 63.5374ms.
+2022-07-04 10:08:18.768 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.HomeController.Home (WebNetMentoringProject) in 66.2025ms
+2022-07-04 10:08:18.769 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.HomeController.Home (WebNetMentoringProject)'
+2022-07-04 10:08:18.770 -05:00 [INF] HTTP GET /Home/Home responded 200 in 78.3528 ms
+2022-07-04 10:08:18.771 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/Home/Home - - - 200 - text/html;+charset=utf-8 95.1227ms
+2022-07-04 10:08:18.805 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-04 10:08:18.806 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-04 10:08:18.806 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/WebNetMentoringProject.styles.css?v=rdpoz5iN8IR226oNBNIx4k1x7VOQJ3AE2OkRJOBak3k - -
+2022-07-04 10:08:18.808 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.5373ms
+2022-07-04 10:08:18.825 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.9140ms
+2022-07-04 10:08:18.844 -05:00 [INF] Sending file. Request path: '/WebNetMentoringProject.styles.css'. Physical path: 'C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\obj\Debug\net6.0\scopedcss\bundle\WebNetMentoringProject.styles.css'
+2022-07-04 10:08:18.847 -05:00 [INF] HTTP GET /WebNetMentoringProject.styles.css?v=rdpoz5iN8IR226oNBNIx4k1x7VOQJ3AE2OkRJOBak3k responded 200 in 29.4590 ms
+2022-07-04 10:08:18.849 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/WebNetMentoringProject.styles.css?v=rdpoz5iN8IR226oNBNIx4k1x7VOQJ3AE2OkRJOBak3k - - - 200 2276 text/css 42.7244ms
+2022-07-04 10:08:29.292 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/Categories - -
+2022-07-04 10:08:29.295 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.CategoriesController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:29.302 -05:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebNetMentoringProject.Controllers.CategoriesController (WebNetMentoringProject).
+2022-07-04 10:08:29.562 -05:00 [INF] Categories Index
+2022-07-04 10:08:30.675 -05:00 [INF] Entity Framework Core 6.0.5 initialized 'DBShopContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2022-07-04 10:08:31.672 -05:00 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [c].[Picture]
+FROM [Category] AS [c]
+2022-07-04 10:08:31.841 -05:00 [INF] Executing ViewResult, running view Index.
+2022-07-04 10:08:31.876 -05:00 [INF] Executed ViewResult - view Index executed in 36.4916ms.
+2022-07-04 10:08:31.884 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.CategoriesController.Index (WebNetMentoringProject) in 2579.4474ms
+2022-07-04 10:08:31.886 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.CategoriesController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:31.888 -05:00 [INF] HTTP GET /Categories responded 200 in 2593.7040 ms
+2022-07-04 10:08:31.903 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/Categories - - - 200 - text/html;+charset=utf-8 2610.7660ms
+2022-07-04 10:08:31.921 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-04 10:08:31.922 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-04 10:08:31.923 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 2.3839ms
+2022-07-04 10:08:31.948 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.3581ms
+2022-07-04 10:08:33.202 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/Products - -
+2022-07-04 10:08:33.204 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.ProductsController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:33.208 -05:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebNetMentoringProject.Controllers.ProductsController (WebNetMentoringProject).
+2022-07-04 10:08:33.217 -05:00 [INF] Entity Framework Core 6.0.5 initialized 'DBShopContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2022-07-04 10:08:33.506 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Name], [c].[Id], [c].[Description], [c].[Name], [c].[Picture]
+FROM [Product] AS [p]
+INNER JOIN [Category] AS [c] ON [p].[Id] = [c].[Id]
+2022-07-04 10:08:33.510 -05:00 [INF] Executing ViewResult, running view Index.
+2022-07-04 10:08:33.520 -05:00 [INF] Executed ViewResult - view Index executed in 10.5512ms.
+2022-07-04 10:08:33.521 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.ProductsController.Index (WebNetMentoringProject) in 311.1888ms
+2022-07-04 10:08:33.522 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.ProductsController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:33.522 -05:00 [INF] HTTP GET /Products responded 200 in 318.3251 ms
+2022-07-04 10:08:33.525 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/Products - - - 200 - text/html;+charset=utf-8 322.4086ms
+2022-07-04 10:08:33.547 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-04 10:08:33.548 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-04 10:08:33.548 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 0.9548ms
+2022-07-04 10:08:33.555 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.0703ms
+2022-07-04 10:08:35.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/Categories - -
+2022-07-04 10:08:35.184 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.CategoriesController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:35.190 -05:00 [INF] Route matched with {action = "Index", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebNetMentoringProject.Controllers.CategoriesController (WebNetMentoringProject).
+2022-07-04 10:08:35.195 -05:00 [INF] Categories Index
+2022-07-04 10:08:35.258 -05:00 [INF] Entity Framework Core 6.0.5 initialized 'DBShopContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2022-07-04 10:08:35.263 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name], [c].[Picture]
+FROM [Category] AS [c]
+2022-07-04 10:08:35.265 -05:00 [INF] Executing ViewResult, running view Index.
+2022-07-04 10:08:35.270 -05:00 [INF] Executed ViewResult - view Index executed in 5.1932ms.
+2022-07-04 10:08:35.271 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.CategoriesController.Index (WebNetMentoringProject) in 78.3898ms
+2022-07-04 10:08:35.273 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.CategoriesController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:35.273 -05:00 [INF] HTTP GET /Categories responded 200 in 89.1167 ms
+2022-07-04 10:08:35.276 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/Categories - - - 200 - text/html;+charset=utf-8 96.8132ms
+2022-07-04 10:08:35.298 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-04 10:08:35.299 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-04 10:08:35.301 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 1.9331ms
+2022-07-04 10:08:35.327 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.0212ms
+2022-07-04 10:08:42.793 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/ - -
+2022-07-04 10:08:42.795 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:42.797 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebNetMentoringProject.Controllers.HomeController (WebNetMentoringProject).
+2022-07-04 10:08:42.800 -05:00 [INF] Executing ViewResult, running view Index.
+2022-07-04 10:08:42.804 -05:00 [INF] Executed ViewResult - view Index executed in 4.6114ms.
+2022-07-04 10:08:42.805 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject) in 5.6403ms
+2022-07-04 10:08:42.806 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject)'
+2022-07-04 10:08:42.806 -05:00 [INF] HTTP GET / responded 200 in 10.8921 ms
+2022-07-04 10:08:42.808 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/ - - - 200 - text/html;+charset=utf-8 14.4162ms
+2022-07-04 10:08:42.849 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-04 10:08:42.849 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-04 10:08:42.849 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 0.9535ms
+2022-07-04 10:08:42.866 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.5981ms
+2022-07-08 21:45:11.021 -05:00 [INF] User profile is available. Using 'C:\Users\Alejandro_Morales\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-08 21:45:11.343 -05:00 [INF] Now listening on: https://localhost:7240
+2022-07-08 21:45:11.343 -05:00 [INF] Now listening on: http://localhost:5240
+2022-07-08 21:45:11.348 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-08 21:45:11.348 -05:00 [INF] Hosting environment: Development
+2022-07-08 21:45:11.349 -05:00 [INF] Content root path: C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\
+2022-07-08 21:45:12.664 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/ - -
+2022-07-08 21:45:12.923 -05:00 [INF] Executing endpoint 'WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject)'
+2022-07-08 21:45:12.959 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebNetMentoringProject.Controllers.HomeController (WebNetMentoringProject).
+2022-07-08 21:45:13.156 -05:00 [INF] Executing ViewResult, running view Index.
+2022-07-08 21:45:13.540 -05:00 [INF] Executed ViewResult - view Index executed in 394.3622ms.
+2022-07-08 21:45:13.559 -05:00 [INF] Executed action WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject) in 597.1233ms
+2022-07-08 21:45:13.562 -05:00 [INF] Executed endpoint 'WebNetMentoringProject.Controllers.HomeController.Index (WebNetMentoringProject)'
+2022-07-08 21:45:13.566 -05:00 [INF] HTTP GET / responded 200 in 796.7576 ms
+2022-07-08 21:45:13.639 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/ - - - 200 - text/html;+charset=utf-8 986.7956ms
+2022-07-08 21:45:13.665 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_vs/browserLink - -
+2022-07-08 21:45:13.665 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - -
+2022-07-08 21:45:13.665 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/css/home.css?v=vHiugP9gM5w6-1t0AKZ5xPYrcoooQLSuP39i82snIi0 - -
+2022-07-08 21:45:13.681 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_framework/aspnetcore-browser-refresh.js - - - 200 12014 application/javascript;+charset=utf-8 16.6908ms
+2022-07-08 21:45:13.695 -05:00 [INF] The file /css/home.css was not modified
+2022-07-08 21:45:13.697 -05:00 [INF] HTTP GET /css/home.css?v=vHiugP9gM5w6-1t0AKZ5xPYrcoooQLSuP39i82snIi0 responded 304 in 29.2042 ms
+2022-07-08 21:45:13.699 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/css/home.css?v=vHiugP9gM5w6-1t0AKZ5xPYrcoooQLSuP39i82snIi0 - - - 304 - text/css 34.4642ms
+2022-07-08 21:45:13.737 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/lib/epam.svg - -
+2022-07-08 21:45:13.739 -05:00 [INF] The file /lib/epam.svg was not modified
+2022-07-08 21:45:13.742 -05:00 [INF] HTTP GET /lib/epam.svg responded 304 in 3.6684 ms
+2022-07-08 21:45:13.743 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/lib/epam.svg - - - 304 - image/svg+xml 6.7977ms
+2022-07-08 21:45:13.748 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.9718ms
+2022-07-08 21:45:13.810 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7240/favicon.ico - -
+2022-07-08 21:45:13.847 -05:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\WebNetMentoringProject\wwwroot\favicon.ico'
+2022-07-08 21:45:13.849 -05:00 [INF] HTTP GET /favicon.ico responded 200 in 34.7293 ms
+2022-07-08 21:45:13.851 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7240/favicon.ico - - - 200 5430 image/x-icon 40.9102ms

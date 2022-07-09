@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace WebNetMentoringProject.TagHelpers
 {
-    [HtmlTargetElement("image-taghelper")]
+    [HtmlTargetElement("image-control")]
     public class ImageTagHelper : TagHelper
     {
         public string Url { get; set; }
