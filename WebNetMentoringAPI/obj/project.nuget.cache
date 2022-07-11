@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tNlX6CMIcEZkJUDxhbJnlmoJVAEj9Wpqa/6eij4FXz03udjphPWL/3f+Ea7LqQKOM94aNZ5KWxV6yQHa+/guPg==",
+  "dgSpecHash": "lNp4UPjSwODclRT2O2Q41lHRjWvaM7VBZTQ7YGpJXslZ+X4JvUQu/FPH3M6FbhN/6E71ObjUS/12lFRKlcZZSA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\WebNetMentoringAPI\\WebNetMentoringAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
