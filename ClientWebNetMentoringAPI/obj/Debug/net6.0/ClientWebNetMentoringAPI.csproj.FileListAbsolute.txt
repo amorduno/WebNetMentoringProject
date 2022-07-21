@@ -1,0 +1,17 @@
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\bin\Debug\net6.0\ClientWebNetMentoringAPI.exe
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\bin\Debug\net6.0\ClientWebNetMentoringAPI.deps.json
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\bin\Debug\net6.0\ClientWebNetMentoringAPI.runtimeconfig.json
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\bin\Debug\net6.0\ClientWebNetMentoringAPI.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\bin\Debug\net6.0\ClientWebNetMentoringAPI.pdb
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.csproj.AssemblyReference.cache
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.AssemblyInfoInputs.cache
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.AssemblyInfo.cs
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.csproj.CopyComplete
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\refint\ClientWebNetMentoringAPI.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.pdb
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ClientWebNetMentoringAPI.genruntimeconfig.cache
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\ClientWebNetMentoringAPI\obj\Debug\net6.0\ref\ClientWebNetMentoringAPI.dll

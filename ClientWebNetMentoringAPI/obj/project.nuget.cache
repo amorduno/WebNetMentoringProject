@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NPzkUCmWGP4AHRaiONnmf0smgGrdzeWbWy+A+rOerGdYKjTxkfNYbhWGfQpLskDM5EMcznli0UO2RedoOSTD7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alejandro_Morales\\source\\repos\\WebNetMentoringProject\\ClientWebNetMentoringAPI\\ClientWebNetMentoringAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alejandro_Morales\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

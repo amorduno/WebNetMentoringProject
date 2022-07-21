@@ -120,9 +120,6 @@ namespace WebNetMentoringAPI.Controllers
 
             var productToDelete = _productRepository.GetProductById(productId);
 
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             if (!_productRepository.DeleteProduct(productToDelete))
             {
                 ModelState.AddModelError("", "Something went wrong deleting Product");

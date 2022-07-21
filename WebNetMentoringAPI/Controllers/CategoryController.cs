@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using WebNetMentoringAPI.Dto;
 using WebNetMentoringAPI.Interfaces;
 using WebNetMentoringAPI.Models;
+using Microsoft.AspNetCore.Hosting;
 
 namespace WebNetMentoringAPI.Controllers
 {
@@ -11,6 +12,7 @@ namespace WebNetMentoringAPI.Controllers
     public class CategoryController : Controller
     {
         private readonly ICategoryRepository _categoryRepository;
+        //private readonly IHostingEnvironment _environment;
         private readonly IMapper _mapper;
         public CategoryController(ICategoryRepository categoryRepository, IMapper mapper)
         {
@@ -95,6 +97,8 @@ namespace WebNetMentoringAPI.Controllers
 
             if (!ModelState.IsValid)
                 return BadRequest();
+
+            //var pathImage = Path.Combine(_categoryRepository.web);
 
             var categoryMap = _mapper.Map<Category>(updatedCategory);
 
