@@ -26,6 +26,9 @@ C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\D
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\SendGrid.dll
+C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\StarkbankEcdsa.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\Alejandro_Morales\source\repos\WebNetMentoringProject\SecurityApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
