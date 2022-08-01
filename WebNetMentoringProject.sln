@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringProject", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringProject.Test", "WebNetMentoringProject.Test\WebNetMentoringProject.Test.csproj", "{266DB9FD-DE22-4795-9290-A4D6C41A4268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNetMentoringAPI", "WebNetMentoringAPI\WebNetMentoringAPI.csproj", "{926F2A90-BDA4-4A00-B94D-12FB1149DE45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringAPI", "WebNetMentoringAPI\WebNetMentoringAPI.csproj", "{926F2A90-BDA4-4A00-B94D-12FB1149DE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWebNetMentoringAPI", "ClientWebNetMentoringAPI\ClientWebNetMentoringAPI.csproj", "{4E80CACA-632B-4032-B8EE-A5B1924FCE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientWebNetMentoringAPI", "ClientWebNetMentoringAPI\ClientWebNetMentoringAPI.csproj", "{4E80CACA-632B-4032-B8EE-A5B1924FCE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp", "SecurityApp\SecurityApp.csproj", "{E835329D-19E5-4726-B403-A0DB326BE670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E835329D-19E5-4726-B403-A0DB326BE670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E835329D-19E5-4726-B403-A0DB326BE670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E835329D-19E5-4726-B403-A0DB326BE670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E835329D-19E5-4726-B403-A0DB326BE670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
