@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>TecnoShop</title>
+      <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+   </head>
+   <body>
+      <table width = "100%" border = "0">         
+         <tr>
+            <div class="head1">TecnoSuper</div>
+            <div class="head2">By Alex Morales</div>
+         </tr>
+         <tr valign = "top">
+            <nav class="menu">
+                <div class="menu-log">
+                    <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Home">To access</a>
+                </div>
+             </nav>
+             <main class = "body_sec" >
+             </main>
+                 @RenderBody()
+         </tr>
+         <tr class="footer">
+            <td>
+               <center>
+                  Copyright © 2022 - Alejandro Morales Orduño
+               </center>
+            </td>
+         </tr>
+         
+      </table>
+   </body>
+</html>

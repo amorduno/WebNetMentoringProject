@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@if(SignInManager.IsSignedIn(User))
+{
+    <div class="text-center">
+        
+        @if(User.IsInRole("Administrator"))
+        {
+            <h1 class="display-4">Welcome @UserManager.GetUserName(User) you are administrator</h1>
+        }
+        else
+        {
+            <h1 class="display-4">Welcome @UserManager.GetUserName(User) you are operator</h1>
+        }
+    </div>
+}
