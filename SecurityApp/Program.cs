@@ -6,8 +6,31 @@ using SecurityApp.Interfaces;
 using SecurityApp.Helpers;
 using SecurityApp.Models;
 using SecurityApp.Authorization;
+using Microsoft.Identity.Web;
+using Microsoft.Identity.Web.UI;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+//////////////////////////////
+/////Azure AD configuration///
+//////////////////////////////
+
+//builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme).AddMicrosoftIdentityWebApp(builder.Configuration);
+//builder.Services.AddControllersWithViews(options =>
+//{
+//    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+//    options.Filters.Add(new AuthorizeFilter(policy));
+//});
+//builder.Services.AddRazorPages().AddMvcOptions(options =>
+//{
+//    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+//    options.Filters.Add(new AuthorizeFilter(policy));
+//}).AddMicrosoftIdentityUI();
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(e => e.UseSqlServer(builder.Configuration.GetConnectionString("SecurityConection")));
