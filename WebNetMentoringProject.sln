@@ -3,15 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringProject", "WebNetMentoringProject\WebNetMentoringProject.csproj", "{65025E14-3F48-446E-BACB-E13EF8FB8876}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringProject.Test", "WebNetMentoringProject.Test\WebNetMentoringProject.Test.csproj", "{266DB9FD-DE22-4795-9290-A4D6C41A4268}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebNetMentoringAPI", "WebNetMentoringAPI\WebNetMentoringAPI.csproj", "{926F2A90-BDA4-4A00-B94D-12FB1149DE45}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientWebNetMentoringAPI", "ClientWebNetMentoringAPI\ClientWebNetMentoringAPI.csproj", "{4E80CACA-632B-4032-B8EE-A5B1924FCE01}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp", "SecurityApp\SecurityApp.csproj", "{E835329D-19E5-4726-B403-A0DB326BE670}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityApp", "SecurityApp\SecurityApp.csproj", "{E835329D-19E5-4726-B403-A0DB326BE670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,22 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65025E14-3F48-446E-BACB-E13EF8FB8876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65025E14-3F48-446E-BACB-E13EF8FB8876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65025E14-3F48-446E-BACB-E13EF8FB8876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65025E14-3F48-446E-BACB-E13EF8FB8876}.Release|Any CPU.Build.0 = Release|Any CPU
-		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{266DB9FD-DE22-4795-9290-A4D6C41A4268}.Release|Any CPU.Build.0 = Release|Any CPU
-		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{926F2A90-BDA4-4A00-B94D-12FB1149DE45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E80CACA-632B-4032-B8EE-A5B1924FCE01}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E835329D-19E5-4726-B403-A0DB326BE670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E835329D-19E5-4726-B403-A0DB326BE670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E835329D-19E5-4726-B403-A0DB326BE670}.Release|Any CPU.ActiveCfg = Release|Any CPU
